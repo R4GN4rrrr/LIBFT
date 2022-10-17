@@ -6,21 +6,12 @@
 /*   By: ymenyoub <ymenyoub@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/08 21:05:35 by ymenyoub          #+#    #+#             */
-/*   Updated: 2022/10/13 23:57:20 by ymenyoub         ###   ########.fr       */
+/*   Updated: 2022/10/17 22:30:54 by ymenyoub         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-/*size_t	ft_strlen(const char	*s)
-{
-	int	i;
-
-	i = 0;
-	while(s[i] != '\0')
-		i++;
-	return(i);
-}*/
 size_t	ft_strlcat(char	*dst, const char	*src,	size_t dstsize)
 {
 unsigned int	i;
@@ -29,8 +20,10 @@ unsigned int	ldest;
 unsigned int	lsrc;
 
 	j = 0;
-	ldest = ft_strlen(dst);
 	lsrc = ft_strlen(src);
+	if (!dst && dstsize == 0)
+		return (dstsize + lsrc);
+	ldest = ft_strlen(dst);
 	i = ldest;
 		if (ldest < dstsize)
 		{
@@ -45,12 +38,13 @@ unsigned int	lsrc;
 	}
 	return(dstsize + lsrc);
 }
-/*int main()
-{
-	char	x[12] = "hello";
-	//char	x1[12] = "hello";
-	char	y[] = "1337"; 
-	printf("%zu\n", ft_strlcat(y, x, 0));
-	//printf("%zu\n", strlcat(x1, y, 10));
-	printf("%s", x);
-}*/
+
+// int main()
+// {
+// 	char	x[12] = "hello";
+// 	//char	x1[12] = "hello";
+// 	char	y[] = "1337"; 
+// 	printf("%zu\n", ft_strlcat(0, x, 0));
+// 	printf("%zu\n", strlcat(0, y, 0));
+// 	printf("%s", x);
+// }

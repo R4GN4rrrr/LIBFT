@@ -6,7 +6,7 @@
 /*   By: ymenyoub <ymenyoub@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/13 22:53:29 by ymenyoub          #+#    #+#             */
-/*   Updated: 2022/10/13 23:55:16 by ymenyoub         ###   ########.fr       */
+/*   Updated: 2022/10/17 22:14:06 by ymenyoub         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,20 +14,20 @@
 
 char    *ft_strrchr(const char *s, int c)
 {
-    size_t i;
+    int  i;
 
     i = ft_strlen(s);
     while (i >= 0)
-    {       
-        if(s[i] == c)
-            return((char *) &s[i]);
+    {
+        if(s[i] == (unsigned char) c)
+            return((char *) (&s[i]));
         i--;
     }   
-    return(NULL);
+    return(0);
 }
 int main()
 {
-    char    x[] = "hello there";
+    char    x[] = "";
     int y = 'a';
     printf("%s\n",ft_strrchr(x, y));
 }
