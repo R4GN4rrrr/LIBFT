@@ -6,17 +6,19 @@
 /*   By: ymenyoub <ymenyoub@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/06 22:39:49 by ymenyoub          #+#    #+#             */
-/*   Updated: 2022/10/13 23:21:54 by ymenyoub         ###   ########.fr       */
+/*   Updated: 2022/10/21 22:11:29 by ymenyoub         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-int	ft_isalpha(int	c)
+#include "libft.h"
+
+int	ft_isalpha(int c)
 {
-		if ((c >= 65  && c <= 90) || (c >= 97 && c <= 122))
-		{
-			return(1);
-		}
-		return(0);
+	if ((c >= 65 && c <= 90) || (c >= 97 && c <= 122))
+	{
+		return (1);
+	}
+	return (0);
 }
 /*int main()
 {

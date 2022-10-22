@@ -6,38 +6,38 @@
 /*   By: ymenyoub <ymenyoub@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/19 01:53:09 by ymenyoub          #+#    #+#             */
-/*   Updated: 2022/10/19 04:40:01 by ymenyoub         ###   ########.fr       */
+/*   Updated: 2022/10/21 23:26:48 by ymenyoub         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-char *ft_strjoin(char const *s1, char const *s2)
+char	*ft_strjoin(char const *s1, char const *s2)
 {
-    int i;
-    int j;
-    char *p;
+	int		i;
+	int		j;
+	char	*p;
 
-    i = 0;
-    j = 0;
-    if(!s1 || !s2)
-        return(NULL);
-    p =malloc (ft_strlen(s1) + ft_strlen(s2) + 1 * sizeof (char));
-    if(!p)
-        return(NULL);
-    while(s1[i])
-    {
-        p[i] = s1[i];
-        i++;
-    }
-    while (s2[j])
-    {       
-        p[i] = s2[j];
-        i++;
-        j++;
-    }
-    p[i] = '\0';
-    return (p);
+	i = 0;
+	j = 0;
+	if (!s1 || !s2)
+		return (NULL);
+	p = malloc (ft_strlen(s1) + ft_strlen(s2) + 1 * sizeof (char));
+	if (!p)
+		return (NULL);
+	while (s1[i])
+	{
+		p[i] = s1[i];
+		i++;
+	}
+	while (s2[j])
+	{
+		p[i] = s2[j];
+		i++;
+		j++;
+	}
+	p[i] = '\0';
+	return (p);
 }
 // int main()
 // {

@@ -6,17 +6,17 @@
 /*   By: ymenyoub <ymenyoub@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/07 03:16:29 by ymenyoub          #+#    #+#             */
-/*   Updated: 2022/10/13 23:23:16 by ymenyoub         ###   ########.fr       */
+/*   Updated: 2022/10/21 23:49:54 by ymenyoub         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-int	ft_tolower(int	c)
+int	ft_tolower(int c)
 {
-	if(c >= 65 && c <= 90)
+	if (c >= 65 && c <= 90)
 		c += 32;
-	return(c);
+	return (c);
 }
 /*int main()
 {

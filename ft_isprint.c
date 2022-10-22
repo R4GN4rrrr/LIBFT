@@ -6,15 +6,17 @@
 /*   By: ymenyoub <ymenyoub@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/07 01:26:21 by ymenyoub          #+#    #+#             */
-/*   Updated: 2022/10/13 23:22:07 by ymenyoub         ###   ########.fr       */
+/*   Updated: 2022/10/21 22:15:58 by ymenyoub         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-int	ft_isprint(int	c)
+#include "libft.h"
+
+int	ft_isprint(int c)
 {
 	if (c >= 32 && c <= 126)
-		return(1);
-	return(0);
+		return (1);
+	return (0);
 }
 /*int main()
 {
