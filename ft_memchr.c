@@ -6,7 +6,7 @@
 /*   By: ymenyoub <ymenyoub@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/14 01:15:08 by ymenyoub          #+#    #+#             */
-/*   Updated: 2022/10/21 22:18:59 by ymenyoub         ###   ########.fr       */
+/*   Updated: 2022/10/25 01:24:22 by ymenyoub         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,9 +27,9 @@ void	*ft_memchr(const void *s, int c, size_t n)
 	}
 	return (NULL);
 }
-/*int main()
-{
-    char    x[] = "hello there";
-    int    y = 't';
-    printf("%s\n", ft_memchr(x, y, 7));
-}*/
+// int main()
+// {
+//     char    x[] = "hello there";
+//     int    y = 't';
+//     printf("%s\n", ft_memchr(x, y, 7));
+// }

@@ -6,13 +6,13 @@
 /*   By: ymenyoub <ymenyoub@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/16 17:29:07 by ymenyoub          #+#    #+#             */
-/*   Updated: 2022/10/22 21:42:14 by ymenyoub         ###   ########.fr       */
+/*   Updated: 2022/10/24 23:57:50 by ymenyoub         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-unsigned long	ft_min(unsigned long a, unsigned long b)
+size_t	ft_min(unsigned long long a, unsigned long long b)
 {
 	if (a < b)
 		return (a);
@@ -33,7 +33,7 @@ char	*ft_substr(char const *s, unsigned int start, size_t len)
 	if (!str)
 		return (0);
 	i = 0;
-	while (i < len)
+	while (i < len && s[start + i])
 	{
 		str[i] = s[start + i];
 		i++;
@@ -45,5 +45,6 @@ char	*ft_substr(char const *s, unsigned int start, size_t len)
 // {
 //     //char    x[] = "hello";
 //     // int    y = 'e';
-//     printf("%s\n",ft_substr("hola", 0, 18446744073709551615));
+//      printf("%s\n",ft_substr("hola", 0, 18446744073709551615));
+// 	//printf("%s\n", ft_substr("zok najachi majachi",0, 25));
 // }

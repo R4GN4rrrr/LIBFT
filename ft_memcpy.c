@@ -6,7 +6,7 @@
 /*   By: ymenyoub <ymenyoub@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/09 03:06:24 by ymenyoub          #+#    #+#             */
-/*   Updated: 2022/10/21 22:32:07 by ymenyoub         ###   ########.fr       */
+/*   Updated: 2022/10/23 01:31:09 by ymenyoub         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,9 +30,9 @@ void	*ft_memcpy(void *dst, const void *src, size_t n)
 	}
 	return (dst);
 }
-/*int main()
-{
-    char    x[] = "test";
-    char    y[] = "";
-    printf("mem: %s\n",ft_memcpy(y, x, 4));
-}*/
+// int main()
+// // {
+// //     char    x[] = "abab";
+// //     char    y[3] = "";
+// //     printf("mem: %s\n",memcpy(y, x, 3));
+// // }
