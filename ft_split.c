@@ -6,7 +6,7 @@
 /*   By: ymenyoub <ymenyoub@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/23 21:34:43 by ymenyoub          #+#    #+#             */
-/*   Updated: 2022/10/24 21:57:20 by ymenyoub         ###   ########.fr       */
+/*   Updated: 2022/10/25 23:47:31 by ymenyoub         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -38,7 +38,7 @@ static char	*ft_strings(const char *s, int n)
 	char	*str;
 	int		i;
 
-	str = malloc(sizeof(char) * n + 1);
+	str = malloc(sizeof(char) * (n + 1));
 	if (!str)
 		return (NULL);
 	i = 0;

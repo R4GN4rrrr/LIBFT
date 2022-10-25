@@ -6,13 +6,13 @@
 /*   By: ymenyoub <ymenyoub@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/07 03:16:29 by ymenyoub          #+#    #+#             */
-/*   Updated: 2022/10/25 03:15:53 by ymenyoub         ###   ########.fr       */
+/*   Updated: 2022/10/25 21:53:49 by ymenyoub         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-int	ft_tolower(int` c)
+int	ft_tolower(int c)
 {
 	if (c >= 65 && c <= 90)
 		c += 32;

@@ -6,7 +6,7 @@
 /*   By: ymenyoub <ymenyoub@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/12 22:10:08 by ymenyoub          #+#    #+#             */
-/*   Updated: 2022/10/21 22:03:09 by ymenyoub         ###   ########.fr       */
+/*   Updated: 2022/10/25 22:37:15 by ymenyoub         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -35,8 +35,8 @@ int	ft_atoi(const char *str)
 	}
 	return (s * nbr);
 }
-/*int main()
-{
-    char    x[] = "2147483649";
-    printf("%d\n",ft_atoi(x));
-}*/
+// int main()
+// {
+//     char    x[] = "2147483649";
+//     printf("%d\n",ft_atoi(x));
+// }
