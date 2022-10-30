@@ -8,18 +8,17 @@ OBJECTS = $(SOURCES:.c=.o)
 
 CC = cc
 
+CFLAGS = -Werror -Wextra -Wall
+
 $(NAME): $(OBJECTS)
-		ar ruv $(NAME) $(OBJECTS)
+		ar rc $(NAME) $(OBJECTS)
 
 all: $(NAME)
-
-CFLAGS = -Werror -Wextra -Wall
 
 clean:
 	rm -f $(OBJECTS)
 
 fclean: clean
-	rm $(NAME)
+	rm -f $(NAME)
 
 re: fclean all
-
