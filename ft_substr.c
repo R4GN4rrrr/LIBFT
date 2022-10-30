@@ -6,7 +6,7 @@
 /*   By: ymenyoub <ymenyoub@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/16 17:29:07 by ymenyoub          #+#    #+#             */
-/*   Updated: 2022/10/25 22:53:44 by ymenyoub         ###   ########.fr       */
+/*   Updated: 2022/10/28 06:21:07 by ymenyoub         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -41,10 +41,3 @@ char	*ft_substr(char const *s, unsigned int start, size_t len)
 	str[i] = '\0';
 	return (str);
 }
-// int main()
-// {
-//     //char    x[] = "hello";
-//     // int    y = 'e';
-//      printf("%s\n",ft_substr("hola", 0, 18446744073709551615));
-// 	//printf("%s\n", ft_substr("zok najachi majachi",0, 25));
-// }

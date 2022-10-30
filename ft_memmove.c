@@ -6,7 +6,7 @@
 /*   By: ymenyoub <ymenyoub@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/15 00:31:31 by ymenyoub          #+#    #+#             */
-/*   Updated: 2022/10/25 04:43:21 by ymenyoub         ###   ########.fr       */
+/*   Updated: 2022/10/28 06:17:26 by ymenyoub         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,11 +29,3 @@ void	*ft_memmove(void *dst, const void *src, size_t len)
 	}
 	return (dest);
 }
-// int main()
-// {
-//     char    x[] = "hello";
-//     char    y[2];
-// 	//char	z[] = "hello";
-//     printf("%s\n",memmove(y, x, 2));
-//     //printf("%s\n", memmove(z, x, 5));
-// }

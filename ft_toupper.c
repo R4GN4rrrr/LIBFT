@@ -6,7 +6,7 @@
 /*   By: ymenyoub <ymenyoub@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/07 01:47:25 by ymenyoub          #+#    #+#             */
-/*   Updated: 2022/10/21 23:50:32 by ymenyoub         ###   ########.fr       */
+/*   Updated: 2022/10/28 06:21:19 by ymenyoub         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,7 +20,3 @@ int	ft_toupper(int c)
 	}
 	return (c);
 }
-/*int main()
-{
-	printf("%c",ft_toupper('a'));
-}*/

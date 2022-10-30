@@ -6,7 +6,7 @@
 /*   By: ymenyoub <ymenyoub@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/12 01:54:37 by ymenyoub          #+#    #+#             */
-/*   Updated: 2022/10/21 23:53:37 by ymenyoub         ###   ########.fr       */
+/*   Updated: 2022/10/28 06:20:34 by ymenyoub         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -32,13 +32,3 @@ size_t	ft_strlcpy(char	*dst, const char *src, size_t dstsize)
 	}
 	return (len);
 }
-/*int main()
-{
-    char    x[] = "hello";
-    char    y[3];
-    char    y1[3];
-    printf("ft_strlcpy: %lu\n", ft_strlcpy(y, x, 3)); 
-    printf("strlcpy: %lu\n", strlcpy(y1, x, 3)); 
-    printf("y: %s\n", y);
-    printf("y1: %s\n", y1);
-}*/

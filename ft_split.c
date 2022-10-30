@@ -6,7 +6,7 @@
 /*   By: ymenyoub <ymenyoub@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/23 21:34:43 by ymenyoub          #+#    #+#             */
-/*   Updated: 2022/10/25 23:47:31 by ymenyoub         ###   ########.fr       */
+/*   Updated: 2022/10/30 04:21:54 by ymenyoub         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -76,9 +76,3 @@ char	**ft_split(char const *s, char c)
 	tab[n] = 0;
 	return (tab);
 }
-// int main()
-// {
-// 	char	x[] = "hhhh jjjj kkkk  llll";
-// 	//char	y = '@';
-// 	printf("%s\n", *ft_split(x, '@'));
-// }

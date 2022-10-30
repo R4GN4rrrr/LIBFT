@@ -6,7 +6,7 @@
 /*   By: ymenyoub <ymenyoub@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/18 00:58:14 by ymenyoub          #+#    #+#             */
-/*   Updated: 2022/10/21 23:14:55 by ymenyoub         ###   ########.fr       */
+/*   Updated: 2022/10/28 06:19:55 by ymenyoub         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,9 +23,3 @@ void	ft_putstr_fd(char *s, int fd)
 		i++;
 	}
 }
-// int main()
-// {       
-//     int fd;
-//     fd = open("file.txt", 1);
-//     ft_putstr_fd("hello", fd);
-// }

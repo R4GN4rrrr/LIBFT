@@ -6,7 +6,7 @@
 /*   By: ymenyoub <ymenyoub@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/13 00:35:40 by ymenyoub          #+#    #+#             */
-/*   Updated: 2022/10/22 00:08:45 by ymenyoub         ###   ########.fr       */
+/*   Updated: 2022/10/28 06:20:53 by ymenyoub         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -34,10 +34,3 @@ char	*ft_strnstr(const char *haystack, const char *needle, size_t len)
 	}
 	return (0);
 }
-// int main()
-// {
-//     char    x[] = "MZIRIBMZIRIBMZE123";
-//     char    y[] = "MZIRIBMZE";
-//     printf("%s\n",ft_strnstr(x, y, 10));
-//     printf("%s\n",strnstr(x, y, 10));
-// }

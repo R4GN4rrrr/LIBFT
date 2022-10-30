@@ -6,7 +6,7 @@
 /*   By: ymenyoub <ymenyoub@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/06 22:39:49 by ymenyoub          #+#    #+#             */
-/*   Updated: 2022/10/21 22:11:29 by ymenyoub         ###   ########.fr       */
+/*   Updated: 2022/10/28 06:18:25 by ymenyoub         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,7 +20,3 @@ int	ft_isalpha(int c)
 	}
 	return (0);
 }
-/*int main()
-{
-	printf("%i",ft_isalpha('A'));
-}*/

@@ -6,7 +6,7 @@
 /*   By: ymenyoub <ymenyoub@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/15 03:24:38 by ymenyoub          #+#    #+#             */
-/*   Updated: 2022/10/21 23:19:48 by ymenyoub         ###   ########.fr       */
+/*   Updated: 2022/10/28 06:20:10 by ymenyoub         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,10 +24,3 @@ char	*ft_strdup(const char *s1)
 	ft_memcpy(p, s1, l);
 	return (p);
 }
-// int main()
-// {
-//     char    x[] = "hello hello";
-//     char    z[] = "hello hello";
-//     printf("%s\n",ft_strdup(x));
-//     printf("%s\n",strdup(z));
-// }

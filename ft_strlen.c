@@ -6,7 +6,7 @@
 /*   By: ymenyoub <ymenyoub@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/07 01:32:02 by ymenyoub          #+#    #+#             */
-/*   Updated: 2022/10/21 23:30:08 by ymenyoub         ###   ########.fr       */
+/*   Updated: 2022/10/28 06:20:38 by ymenyoub         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,8 +21,3 @@ size_t	ft_strlen(const char *s)
 		i++;
 	return (i);
 }
-/*int main()
-{
-	char	x[] = "jkdbnjkbnx";
-	printf("%d",ft_strlen(x));
-}*/

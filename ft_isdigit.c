@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_isdigit.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: ymenyoub <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: ymenyoub <ymenyoub@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/06 23:05:19 by ymenyoub          #+#    #+#             */
-/*   Updated: 2022/10/21 22:14:45 by ymenyoub         ###   ########.fr       */
+/*   Updated: 2022/10/28 06:18:48 by ymenyoub         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,7 +18,3 @@ int	ft_isdigit(int c)
 		return (1);
 	return (0);
 }
-/*int main()
-{
-	printf("%d",ft_isdigit('5'));
-}*/

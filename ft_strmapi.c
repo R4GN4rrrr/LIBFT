@@ -6,7 +6,7 @@
 /*   By: ymenyoub <ymenyoub@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/19 01:32:52 by ymenyoub          #+#    #+#             */
-/*   Updated: 2022/10/22 21:19:18 by ymenyoub         ###   ########.fr       */
+/*   Updated: 2022/10/28 06:20:42 by ymenyoub         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,14 +33,3 @@ char	*ft_strmapi(char const *s, char (*f)(unsigned int, char))
 	str[i] = '\0';
 	return (str);
 }
-// char    up(unsigned int i,char  c)
-// {   
-//     i = 0;
-//     c-= 32;
-//     return(c);
-// }
-// int main()
-// {
-//     char    s[] = "hello";
-//     printf("%s\n", ft_strmapi(s, up));
-// }

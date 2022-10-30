@@ -6,7 +6,7 @@
 /*   By: ymenyoub <ymenyoub@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/09 03:06:24 by ymenyoub          #+#    #+#             */
-/*   Updated: 2022/10/25 04:28:24 by ymenyoub         ###   ########.fr       */
+/*   Updated: 2022/10/28 06:19:28 by ymenyoub         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,20 +30,3 @@ void	*ft_memcpy(void *dst, const void *src, size_t n)
 	}
 	return (dst);
 }
-// int main()
-// {
-//     int    d[4] = {};
-//     int    s[] = {1, 2, 3, 4};
-// 	ft_memcpy(d, s, sizeof(s));
-// 	for (int i = 0; i < 4; i++)
-// 	{
-// 		printf("%d\n", s[i]);
-// 	}
-// 	// 010011010 binary
-// }
-// int main()
-// {
-// 	char src[] = "hello";
-// 	// char dst[100];
-// 	printf("%s\n", ft_memcpy(src + 1, src, 3));
-// }

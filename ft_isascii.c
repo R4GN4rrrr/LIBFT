@@ -6,7 +6,7 @@
 /*   By: ymenyoub <ymenyoub@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/07 01:05:38 by ymenyoub          #+#    #+#             */
-/*   Updated: 2022/10/21 22:13:12 by ymenyoub         ###   ########.fr       */
+/*   Updated: 2022/10/28 06:18:43 by ymenyoub         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,7 +18,3 @@ int	ft_isascii(int c)
 		return (1);
 	return (0);
 }
-/*int main()
-{
-	printf("%i",ft_isascii('d'));
-}*/

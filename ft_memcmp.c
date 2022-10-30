@@ -6,7 +6,7 @@
 /*   By: ymenyoub <ymenyoub@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/14 20:12:13 by ymenyoub          #+#    #+#             */
-/*   Updated: 2022/10/21 22:22:51 by ymenyoub         ###   ########.fr       */
+/*   Updated: 2022/10/28 06:19:08 by ymenyoub         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -32,9 +32,3 @@ int	ft_memcmp(const void *s1, const void *s2, size_t n)
 	}
 	return (0);
 }
-// int main()
-// {
-//     char    x[] = "\xff\xaa\xde\x12";
-//     char    y[] = "\xff\xaa\xde\x12MACOSAAAAA";
-//     printf("%d\n",ft_memcmp(x,y,3));
-// }

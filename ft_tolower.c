@@ -6,7 +6,7 @@
 /*   By: ymenyoub <ymenyoub@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/07 03:16:29 by ymenyoub          #+#    #+#             */
-/*   Updated: 2022/10/25 21:53:49 by ymenyoub         ###   ########.fr       */
+/*   Updated: 2022/10/28 06:21:12 by ymenyoub         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,7 +18,3 @@ int	ft_tolower(int c)
 		c += 32;
 	return (c);
 }
-/*int main()
-{
-	printf("%c",ft_tolower('c'));
-}*/

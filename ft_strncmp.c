@@ -6,7 +6,7 @@
 /*   By: ymenyoub <ymenyoub@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/11 21:35:53 by ymenyoub          #+#    #+#             */
-/*   Updated: 2022/10/21 23:40:22 by ymenyoub         ###   ########.fr       */
+/*   Updated: 2022/10/30 05:00:35 by ymenyoub         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,7 +17,7 @@ int	ft_strncmp(const char *s1, const char *s2, size_t n)
 	unsigned int	i;
 
 	i = 0;
-	while ((s1[i] != '\0' || s2[i] != '\0') && i < n)
+	while (i < n && (s1[i] != '\0' || s2[i] != '\0'))
 	{
 		if ((unsigned char) s1[i] != (unsigned char) s2[i])
 			return ((unsigned char) s1[i] - (unsigned char) s2[i]);
@@ -27,7 +27,6 @@ int	ft_strncmp(const char *s1, const char *s2, size_t n)
 }
 // int main()
 // {
-//     char    x[] = "abcdef";
-//     char    y[] = "abcdefghijklmnop";
-//     printf("%d\n",ft_strncmp(x,y,6));
+// 	printf("%d\n", ft_strncmp(NULL, "hhhh", 0));
+// 	printf("%d\n", strncmp(NULL, "hhhh", 0));
 // }

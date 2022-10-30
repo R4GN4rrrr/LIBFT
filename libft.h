@@ -6,7 +6,7 @@
 /*   By: ymenyoub <ymenyoub@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/09 03:08:11 by ymenyoub          #+#    #+#             */
-/*   Updated: 2022/10/24 23:55:07 by ymenyoub         ###   ########.fr       */
+/*   Updated: 2022/10/28 06:21:36 by ymenyoub         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,10 +14,8 @@
 # define LIBFT_H
 
 # include <stdlib.h>
-# include <stdio.h>
 # include <string.h>
 # include <unistd.h>
-# include <fcntl.h>
 
 int		ft_atoi(const char *str);
 void	ft_bzero(void *s, size_t n);

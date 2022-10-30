@@ -6,7 +6,7 @@
 /*   By: ymenyoub <ymenyoub@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/22 02:48:33 by ymenyoub          #+#    #+#             */
-/*   Updated: 2022/10/25 23:46:40 by ymenyoub         ###   ########.fr       */
+/*   Updated: 2022/10/30 04:18:49 by ymenyoub         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,7 +21,7 @@ char	*ft_strtrim(char const *s1, char const *set)
 
 	i = 0;
 	j = 0;
-	if (!s1)
+	if (!s1 || !set)
 		return (NULL);
 	while (s1[i] && ft_strchr(set, s1[i]))
 		i++;
@@ -35,9 +35,3 @@ char	*ft_strtrim(char const *s1, char const *set)
 	str = ft_substr(s1, i, l - i + 1);
 	return (str);
 }
-// int main()
-// {
-// 	// char	x[] = "/*/*abdgfgk/*/*";
-// 	// char	y[] = "/*/*";
-// 	printf("%s\n", ft_strtrim("", ""));
-// }

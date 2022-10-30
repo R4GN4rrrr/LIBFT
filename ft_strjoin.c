@@ -6,7 +6,7 @@
 /*   By: ymenyoub <ymenyoub@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/19 01:53:09 by ymenyoub          #+#    #+#             */
-/*   Updated: 2022/10/21 23:26:48 by ymenyoub         ###   ########.fr       */
+/*   Updated: 2022/10/28 06:20:24 by ymenyoub         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -39,9 +39,3 @@ char	*ft_strjoin(char const *s1, char const *s2)
 	p[i] = '\0';
 	return (p);
 }
-// int main()
-// {
-//     char    x[] = "hello";
-//     char    y[] = "there";
-//     printf("%s\n", ft_strjoin(x, y));
-// }

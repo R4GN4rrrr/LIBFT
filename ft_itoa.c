@@ -6,7 +6,7 @@
 /*   By: ymenyoub <ymenyoub@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/23 21:20:10 by ymenyoub          #+#    #+#             */
-/*   Updated: 2022/10/25 03:20:13 by ymenyoub         ###   ########.fr       */
+/*   Updated: 2022/10/28 06:18:57 by ymenyoub         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -48,14 +48,10 @@ char	*ft_itoa(int n)
 	if (n == 0)
 		str[0] = '0';
 	str[size] = '\0';
-	while (n)
+	while (n > 0)
 	{
 		str[size - i++] = ((n % 10 + '0'));
 		n /= 10;
 	}
 	return (str);
 }
-// int main()
-// {
-// 	printf("%s\n", ft_itoa(46654));
-// }
