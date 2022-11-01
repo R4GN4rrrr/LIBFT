@@ -6,7 +6,7 @@
 /*   By: ymenyoub <ymenyoub@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/09 03:06:24 by ymenyoub          #+#    #+#             */
-/*   Updated: 2022/10/28 06:19:28 by ymenyoub         ###   ########.fr       */
+/*   Updated: 2022/10/31 00:46:19 by ymenyoub         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,6 +23,8 @@ void	*ft_memcpy(void *dst, const void *src, size_t n)
 	i = 0;
 	if (dst == NULL && src == NULL)
 		return (0);
+	if (dst == src)
+		return (dst);
 	while (i < n)
 	{
 		tmp1[i] = tmp[i];

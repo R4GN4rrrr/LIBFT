@@ -6,7 +6,7 @@
 /*   By: ymenyoub <ymenyoub@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/23 21:34:43 by ymenyoub          #+#    #+#             */
-/*   Updated: 2022/10/30 04:21:54 by ymenyoub         ###   ########.fr       */
+/*   Updated: 2022/11/01 11:18:39 by ymenyoub         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -60,6 +60,8 @@ char	**ft_split(char const *s, char c)
 
 	i = 0;
 	n = 0;
+	if (!s)
+		return (0);
 	tab = malloc(sizeof(char *) * (cwords(s, c) + 1));
 	if (!tab)
 		return (NULL);

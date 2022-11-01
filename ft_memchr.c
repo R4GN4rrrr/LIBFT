@@ -6,7 +6,7 @@
 /*   By: ymenyoub <ymenyoub@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/14 01:15:08 by ymenyoub          #+#    #+#             */
-/*   Updated: 2022/10/28 06:22:16 by ymenyoub         ###   ########.fr       */
+/*   Updated: 2022/11/01 11:14:11 by ymenyoub         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,7 +22,7 @@ void	*ft_memchr(const void *s, int c, size_t n)
 	while (index < n)
 	{
 		if (tmp[index] == (unsigned char ) c)
-			return ((void *) &tmp[index]);
+			return (&tmp[index]);
 		index++;
 	}
 	return (NULL);

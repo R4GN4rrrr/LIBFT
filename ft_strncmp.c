@@ -6,7 +6,7 @@
 /*   By: ymenyoub <ymenyoub@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/11 21:35:53 by ymenyoub          #+#    #+#             */
-/*   Updated: 2022/10/30 05:00:35 by ymenyoub         ###   ########.fr       */
+/*   Updated: 2022/10/31 00:47:27 by ymenyoub         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,8 +25,3 @@ int	ft_strncmp(const char *s1, const char *s2, size_t n)
 	}
 	return (0);
 }
-// int main()
-// {
-// 	printf("%d\n", ft_strncmp(NULL, "hhhh", 0));
-// 	printf("%d\n", strncmp(NULL, "hhhh", 0));
-// }
